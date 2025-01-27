@@ -2689,6 +2689,15 @@
       ]
   },
   {
+    "title": "Data API builder Quickstart - Azure Cosmos DB for NoSQL",
+    "description": "A quick application to get started using Data API builder to create a GraphQL API for Azure Cosmos DB for NoSQL.",
+    "preview": "./templates/images/dab-azure-cosmos-db-nosql-quickstart.png",
+    "website": "https://github.com/azure-samples",
+    "author": "Azure Cosmos DB Content Team",
+    "source": "https://github.com/azure-samples/dab-azure-cosmos-db-nosql-quickstart",
+    "tags": ["cosmosdb", "dotnetCsharp", "blazor", "dab", "aca", "managedidentity", "bicep", "msft", "new"]
+  },
+  {
     "title": "Sprint Petclinic AI application on Azure Container Apps",
     "description": "A chat bot using Generative AI to the Spring Petclinic application, running on Azure Container Apps",
     "preview": "./templates/images/spring-petclinic-ai.png",
@@ -2781,6 +2790,27 @@
       "keyvault",
       "loganalytics",
       "appinsights",
+      "new"
+    ]
+  },
+  {
+    "title": "Order processing workflow with Durable Functions (Python)",
+    "description": "This repository contains the implementation of an order processing workflow with Durable Functions in Python. The sample is deployed to Azure Functions Flex Consumption using the Azure Developer CLI (azd) and is configured with managed identity as the authentication mechanism.",
+    "preview": "./templates/images/order-processing-durable-functions.png",
+    "website": "https://github.com/Azure-Samples",
+    "author": "Azure Functions Team",
+    "source": "https://github.com/Azure-Samples/durable-functions-order-processing-python",
+    "tags": [
+      "functions",
+      "python", 
+      "managedidentity",
+      "azurestorage",
+      "blobstorage",
+      "vnets",
+      "bicep", 
+      "appinsights",
+      "loganalytics",
+      "msft", 
       "new"
     ]
   }
