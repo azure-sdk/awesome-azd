@@ -2751,7 +2751,7 @@
     "title": "Serverless Azure OpenAI Quick Start with LlamaIndex (JavaScript)",
     "description": "This sample shows how to quickly get started with LlamaIndex.ai on Azure. The application is hosted on Azure Container Apps. You can use it as a starting point for building more complex RAG applications.",
     "preview": "./templates/images/llama-index-javascript-architecture-diagram.png",
-    "authorUrl": "https://github.com/Azure-Samples/gpt-video-analysis-in-a-box",
+    "authorUrl": "https://github.com/manekinekko",
     "author": "Wassim Chegham",
     "source": "https://github.com/Azure-Samples/llama-index-javascript",
     "tags": [
@@ -3736,7 +3736,7 @@
     "title": "LlamaIndex RAG chat app with Azure OpenAI and Azure AI Search (JavaScript)",
     "description": "This solution creates a ChatGPT-like, Retrieval Augmented Generation (RAG) agentic application, over your own documents, powered by Llamaindex (TypeScript). It uses Azure OpenAI Service to access GPT models and embedding, and Azure AI Search for data indexing and retrieval.",
     "preview": "./templates/images/llama-index-vector-search-javascript.png",
-    "authorUrl": "https://github.com/Azure-Samples",
+    "authorUrl": "https://github.com/manekinekko",
     "author": "Wassim Chegham",
     "source": "https://github.com/Azure-Samples/llama-index-vector-search-javascript",
     "tags": [
@@ -5708,8 +5708,8 @@
       "monitor"
     ],
     "id": "778bea03-523e-4bcb-b555-e8de18333a60"
-   },
-   {
+  },
+  {
     "title": "Deploy Label Studio directly from Docker Hub on Azure Container Apps",
     "description": "An end-to-end sample deploying a public image (Label Studio) directly to Azure Container Apps with a persistent storage volume.",
     "preview": "./templates/images/aca-public-image-arch.png",
@@ -5728,8 +5728,7 @@
       "loganalytics",
       "managedidentity"
     ],
-    "languages": [
-    ],
+    "languages": [],
     "id": "f3e2f3e1-5d4c-4e2e-9f4a-3c6e2f3e4b5c"
   },
   {
@@ -5828,8 +5827,7 @@
       "vnets",
       "appinsights"
     ],
-    "languages": [
-    ],
+    "languages": [],
     "id": "d0d40d21-8951-4421-ac04-a929dcbb357e"
   },
   {
@@ -5932,6 +5930,40 @@
     ]
   },
   {
+    "title": "AI Travel Agents - Multi-Agent MCP Orchestration with LangChain.js, LlamaIndex.TS, and Microsoft Agent Framework",
+    "description": "A comprehensive reference application demonstrating multi-agent AI orchestration for travel agency operations using three orchestration frameworks (LangChain.js, LlamaIndex.TS, and Microsoft Agent Framework). Features MCP (Model Context Protocol) servers built in TypeScript, Python, Java, and .NET, deployed as serverless Azure Container Apps with OpenTelemetry monitoring.",
+    "preview": "./templates/images/ai-travel-agents-architecture-diagram.png",
+    "authorUrl": "https://github.com/Azure-Samples",
+    "author": "Microsoft DevRel",
+    "source": "https://github.com/Azure-Samples/azure-ai-travel-agents",
+    "tags": [
+      "msft",
+      "ai",
+      "new",
+      "bicep",
+      "angular",
+      "langchain",
+      "mcp"
+    ],
+    "azureServices": [
+      "aca",
+      "azureai",
+      "aifoundry",
+      "openai",
+      "monitor",
+      "managedidentity"
+    ],
+    "id": "178c3fdb-04b5-4423-b451-5f7dc7d097fff",
+    "languages": [
+      "nodejs",
+      "javascript",
+      "typescript",
+      "python",
+      "java",
+      "dotnetCsharp"
+    ]
+  },
+  {
     "title": "Remote self-hosted Azure MCP Server with managed identity for Microsoft Foundry integration",
     "description": "This template demonstrates how to self-host a remote Azure MCP Server as an Azure Container App which can use its managed identity to read Azure resources. This template also creates Entra app registrations for connecting Microsoft Foundry agent to this remote Azure MCP Server.",
     "preview": "./templates/images/azmcp-foundry-aca-mi.png",
@@ -5999,6 +6031,31 @@
     ]
   },
   {
+    "title": "Semantic image search",
+    "description": "A sample full-stack app for searching images using Azure AI Vision multi-modal embeddings API and Azure AI Search integrated vectorization.",
+    "authorUrl": "https://github.com/Azure-Samples",
+    "author": "Azure Content Team",
+    "source": "https://github.com/Azure-Samples/image-search-aisearch",
+    "tags": [
+      "bicep",
+      "ai",
+      "msft",
+      "new"
+    ],
+    "azureServices": [
+      "openai",
+      "aisearch",
+      "blobstorage",
+      "aca"
+    ],
+    "id": "2c8e6731-cd95-445a-a3df-e78151e124f4",
+    "languages": [
+      "python",
+      "typescript",
+      "nodejs"
+    ]
+  },
+  {
     "title": "Call API Management backend with OAuth",
     "description": "Demonstrates multiple ways to call OAuth-protected backend APIs through Azure API Management. This template demonstrates three authentication scenarios: Credential Manager, send-request policy with client secret and send-request policy with client certificate (client assertion).",
     "preview": "./templates/images/call-apim-backend-with-oauth.png",
@@ -6017,6 +6074,30 @@
     "id": "af9e410f-96f1-419d-ba27-2ff8a77b24d0",
     "languages": [
       "dotnetCsharp"
+    ]
+  },
+  {
+    "title": "FastAPI Membership API Template for Azure Container Apps",
+    "description": "This template allows you to deploy a membership API built with FastAPI to Azure Container Apps, using Azure Database for PostgreSQL",
+    "preview": "./templates/images/fastapi-postgres-aca.png",
+    "authorUrl": "https://github.com/EstopaceMA",
+    "author": "Mark Anthony Estopace",
+    "source": "https://github.com/EstopaceMA/fastapi-postgres-aca",
+    "tags": [
+      "community",
+      "fastapi",
+      "new",
+      "terraform"
+    ],
+    "azureServices": [
+      "aca",
+      "azuredb-postgreSQL",
+      "keyvault",
+      "vnets"
+    ],
+    "id": "d9663d15-fd8f-4e74-8200-6221f63c3ce8",
+    "languages": [
+      "python"
     ]
   }
 ]
