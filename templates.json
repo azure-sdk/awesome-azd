@@ -5708,8 +5708,8 @@
       "monitor"
     ],
     "id": "778bea03-523e-4bcb-b555-e8de18333a60"
-  },
-  {
+   },
+   {
     "title": "Deploy Label Studio directly from Docker Hub on Azure Container Apps",
     "description": "An end-to-end sample deploying a public image (Label Studio) directly to Azure Container Apps with a persistent storage volume.",
     "preview": "./templates/images/aca-public-image-arch.png",
@@ -5728,7 +5728,8 @@
       "loganalytics",
       "managedidentity"
     ],
-    "languages": [],
+    "languages": [
+    ],
     "id": "f3e2f3e1-5d4c-4e2e-9f4a-3c6e2f3e4b5c"
   },
   {
@@ -5827,7 +5828,8 @@
       "vnets",
       "appinsights"
     ],
-    "languages": [],
+    "languages": [
+    ],
     "id": "d0d40d21-8951-4421-ac04-a929dcbb357e"
   },
   {
@@ -5997,31 +5999,6 @@
     ]
   },
   {
-    "title": "Semantic image search",
-    "description": "A sample full-stack app for searching images using Azure AI Vision multi-modal embeddings API and Azure AI Search integrated vectorization.",
-    "authorUrl": "https://github.com/Azure-Samples",
-    "author": "Azure Content Team",
-    "source": "https://github.com/Azure-Samples/image-search-aisearch",
-    "tags": [
-      "bicep",
-      "ai",
-      "msft",
-      "new"
-    ],
-    "azureServices": [
-      "openai",
-      "aisearch",
-      "blobstorage",
-      "aca"
-    ],
-    "id": "2c8e6731-cd95-445a-a3df-e78151e124f4",
-    "languages": [
-      "python",
-      "typescript",
-      "nodejs"
-    ]
-  },
-  {
     "title": "Call API Management backend with OAuth",
     "description": "Demonstrates multiple ways to call OAuth-protected backend APIs through Azure API Management. This template demonstrates three authentication scenarios: Credential Manager, send-request policy with client secret and send-request policy with client certificate (client assertion).",
     "preview": "./templates/images/call-apim-backend-with-oauth.png",
@@ -6040,30 +6017,6 @@
     "id": "af9e410f-96f1-419d-ba27-2ff8a77b24d0",
     "languages": [
       "dotnetCsharp"
-    ]
-  },
-  {
-    "title": "FastAPI Membership API Template for Azure Container Apps",
-    "description": "This template allows you to deploy a membership API built with FastAPI to Azure Container Apps, using Azure Database for PostgreSQL",
-    "preview": "./templates/images/fastapi-postgres-aca.png",
-    "authorUrl": "https://github.com/EstopaceMA",
-    "author": "Mark Anthony Estopace",
-    "source": "https://github.com/EstopaceMA/fastapi-postgres-aca",
-    "tags": [
-      "community",
-      "fastapi",
-      "new",
-      "terraform"
-    ],
-    "azureServices": [
-      "aca",
-      "azuredb-postgreSQL",
-      "keyvault",
-      "vnets"
-    ],
-    "id": "d9663d15-fd8f-4e74-8200-6221f63c3ce8",
-    "languages": [
-      "python"
     ]
   }
 ]
