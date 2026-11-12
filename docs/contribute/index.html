@@ -6,8 +6,8 @@
 <title data-rh="true">Contributor Guide | Azure Developer CLI</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://azure.github.io/awesome-azd/docs/contribute"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Contributor Guide | Azure Developer CLI"><meta data-rh="true" name="description" content="We ♥️ Contributions!"><meta data-rh="true" property="og:description" content="We ♥️ Contributions!"><link data-rh="true" rel="icon" href="/awesome-azd/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://azure.github.io/awesome-azd/docs/contribute"><link data-rh="true" rel="alternate" href="https://azure.github.io/awesome-azd/docs/contribute" hreflang="en"><link data-rh="true" rel="alternate" href="https://azure.github.io/awesome-azd/docs/contribute" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Contributor Guide","item":"https://azure.github.io/awesome-azd/docs/contribute"}]}</script><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap">
 <script src="https://js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js" crossorigin="anonymous"></script>
 <script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js" crossorigin="anonymous"></script><link rel="stylesheet" href="/awesome-azd/assets/css/styles.4103412b.css">
-<script src="/awesome-azd/assets/js/runtime~main.a8eac41f.js" defer="defer"></script>
-<script src="/awesome-azd/assets/js/main.1f6a03e2.js" defer="defer"></script>
+<script src="/awesome-azd/assets/js/runtime~main.f081b8e3.js" defer="defer"></script>
+<script src="/awesome-azd/assets/js/main.c6ae4f90.js" defer="defer"></script>
 </head>
 <body>
 <svg style="display: none;"><defs>
@@ -37,6 +37,7 @@
 <li class=""><strong>ID</strong> - Please provide a unique uuid.</li>
 </ul>
 </li>
+<li class="">Add the template&#x27;s normalized GitHub repository URL and at least one reviewed primary use case to <a href="https://github.com/Azure/awesome-azd/blob/main/website/src/catalog/template-use-cases.json" target="_blank" rel="noopener noreferrer" class="">website/src/catalog/template-use-cases.json</a>. This mapping is required for the template to appear in the unified catalog.</li>
 <li class="">If the template is Microsoft-authored, we encourage you to also <a href="https://review.learn.microsoft.com/en-us/help/contribute/samples/process/onboarding?branch=main" target="_blank" rel="noopener noreferrer" class="">publish it to learn.microsoft.com/samples</a>.</li>
 <li class="">Open a PR!</li>
 <li class="">If possible, add a link to the PR in your repo where you made your app <code>azd</code> compatible to the PR description. This will help us provide feedback on your template and speed up the review process.</li>
@@ -51,7 +52,7 @@
 <p>For a faster submission experience, use the automated pipeline:</p>
 <ol>
 <li class=""><strong><a href="https://github.com/Azure/awesome-azd/issues/new?template=template-submission.yml" target="_blank" rel="noopener noreferrer" class="">Submit a template issue</a></strong> — Fill out the form with your template details</li>
-<li class=""><strong>Automatic validation</strong> — A workflow validates your repository and creates a PR automatically</li>
+<li class=""><strong>Automatic validation</strong> — A workflow validates your repository, adds the required catalog use-case mapping, and creates a PR automatically</li>
 <li class=""><strong>Review &amp; merge</strong> — A maintainer reviews and approves the PR</li>
 </ol>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="submit-a-resource"><a href="https://github.com/Azure/awesome-azd/compare" target="_blank" rel="noopener noreferrer" class="">Submit a Resource</a><a href="#submit-a-resource" class="hash-link" aria-label="Direct link to submit-a-resource" title="Direct link to submit-a-resource" translate="no">​</a></h3>
