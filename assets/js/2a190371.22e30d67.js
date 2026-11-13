@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkwebsite||=[]).push([[9545],{69472(e){e.exports=JSON.parse('{"name":"catalog-route-generator-plugin","id":"default"}')}}]);
